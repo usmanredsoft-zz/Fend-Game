@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fend</title>
+
+        <!--The mouth & skull graphics:
+        Creative commons licenced
+
+        Mouth images “designed by Freepik www.freepik.com”
+        for skull: “designed by freevector.com”
+
+        The fonts are free to download
+
+        The main font:
+        Ek Mukta
+        http://www.1001fonts.
+        com/ek-mukta-font.html
+
+        Game over font:
+        Venus Rising
+        http://www.1001fonts.
+        com/venus-rising-font.html-->
+
+    </head>
+    <body>
+        <style type="text/css">
+            body
+            {
+                padding: 0;
+                margin: 0;
+            }
+            @font-face
+            {
+                font-family: "EkMukta-Regular";
+                src: url("assets/fonts/EkMukta-Regular.ttf") format("truetype");
+            }
+            @font-face
+            {
+                font-family: "EkMukta-Medium";
+                src: url("assets/fonts/EkMukta-Medium.ttf") format("truetype");
+            }
+            .font-01
+            {
+                font-family: "EkMukta-Regular", sans-serif;
+                position: absolute;
+                left: -100px;
+            }
+            .font-02
+            {
+                font-family: "EkMukta-Medium", sans-serif;
+                position: absolute;
+                left: -100px;
+            }
+        </style>
+
+        <div class="font-01">.</div>
+        <div class="font-02">.</div>
+
+        <script src="temp/phaser.min.js"></script>
+        <script src="js/ScreensManager.js"></script>
+        <script src="js/Button.js"></script>
+        <script src="js/StartScreen.js"></script>
+        <script src="js/PauseScreen.js"></script>
+        <script src="js/GameEndScreen.js"></script>
+        <script src="js/TextQuestionItem.js"></script>
+        <script src="js/CountdownTimer.js"></script>
+        <script src="js/Game.js"></script>
+    </body>
+</html>

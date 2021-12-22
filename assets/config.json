@@ -1,0 +1,21 @@
+{	
+	"game_time": "80",
+	"init_fall_interval": "3",	
+	"fall_interval_dec": "0.1",
+	"min_fall_interval": "1.5",
+	"init_fall_speed": "1",	
+	"fall_speed_inc": "0.1",
+	"max_fall_speed": "10",	
+	"rules": "Which of the following\nare opioids?",
+	"right_answer_scores": "10",
+	"wrong_answer_scores": "5",
+	"lose_question_scores": "2",
+	"lives": "3",
+	"send_score_url": "http://site.adress?save_score.php",
+	"replay": "true",
+	"questions":
+	[
+		{"question": "OXYCODONE", "answer": "true"},
+		{"question": "NOTHING", "answer": "false"}
+	]
+}
